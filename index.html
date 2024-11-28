@@ -7,6 +7,8 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="Footer.css">
+<link rel="stylesheet" href="ContactUs.css">
 
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -1204,101 +1206,171 @@
         </div>
     </section>
     <!--End Sponsors Section-->
+  
+  <!-- contactus -->
+  <div id="contact-us">
+    <img src="./Assets/contact_bg.png" alt="" id="conbg" />
+    <div class="contact-head">CONTACT US</div>
+    <div class="con-content">
+      <div class="contact-subhead">We would love to hear from you!</div>
+      <div class="contact-body">
+        <div class="contact-info">
+          <div class="address">
+            <i class="address-icon"></i>
+            <p>JUIT, Waknaghat SOLAN HP-173234</p>
+          </div>
+          <div class="email">
+            <a href="mailto:ieee.juit@juitsolan.in">
+              <i class="email-icon"></i>
+              <p>ieeejuit@juitsolan.in</p>
+            </a>
+          </div>
+          <div class="instagram">
+            <a
+              href="https://instagram.com/ieeejuit?igshid=NzZlODBkYWE4Ng=="
+              target="_blank"
+            >
+              <i class="insta-icon"></i>
+              <p>ieeejuit</p>
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/ieeejuitsb/" target="_blank">
+              <i class="linkedin-icon"></i>
+              <p>linkedin.com/ieeejuit</p>
+            </a>
+          </div>
+        </div>
+        <div class="vertical-line"></div>
+        <form class="contact-form" method="POST" action="https://ieee-website-57af0-default-rtdb.firebaseio.com/userDataRecords.json">
+          <div class="name">
+            <div class="first-name">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                placeholder="Enter first name"
+                name="firstName"
+                required
+              />
+            </div>
+            <div class="last-name">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                placeholder="Enter last name"
+                name="lastName"
+                required
+              />
+            </div>
+            <div class="email">
+              <label for="email">Email Id</label>
+              <input
+                type="email"
+                placeholder="Enter emailId"
+                name="email"
+                required
+              />
+            </div>
+            <div class="message">
+              <label for="message">Message</label>
+              <textarea
+                placeholder="Enter your message here..."
+                name="message"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <button class="submit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
 
 	<!-- Main Footer -->
-    <footer class="main-footer">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget logo-widget">
-							<div class="logo">
-                            	<a href="index.html"><img src="images/logo.png" alt="" /></a>
-                            </div>
-							<div class="text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected.</div>
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget links-widget">
-							<div class="widget-content">
-								<div class="footer-title">
-									<h2>Links</h2>
-								</div>
-								<div class="row clearfix">
-									<div class="column col-lg-6 col-md-6 col-sm-12">
-										<ul class="list">
-											<li><a href="#">About</a></li>
-											<li><a href="#">Our Team</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">Contact</a></li>
-										</ul>
-									</div>
-									<div class="column col-lg-6 col-md-6 col-sm-12">
-										<ul class="list">
-											<li><a href="#">Help & Support</a></li>
-											<li><a href="#">Privacy Policy</a></li>
-											<li><a href="#">Terms of Use</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget newsletter-widget">
-							<div class="footer-title">
-                            	<h2>Newsletter</h2>
-                            </div>
-							<div class="text">Subsrcibe us now to get the latest news and updates</div>
-							<div class="newsletter-form">
-                                <form method="post" action="contact.html">
-                                    <div class="form-group clearfix">
-                                        <input type="email" name="email" value="" placeholder="Email address" required>
-                                        <button type="submit" class="theme-btn newsletter-btn"><span class="fas fa-envelope"></span></button>
-                                    </div>
-                                </form>
-                            </div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="auto-container">
-				<!--Scroll to top-->
-				<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
-				<!--Scroll to top-->
-				<div class="row clearfix">
-					<!-- Column -->
-					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<div class="copyright">&copy; Copyrights, 2019 All Rights Reserved</div>
-					</div>
-					<!-- Column -->
-					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<ul class="social-icons">
-							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-							<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-							<li><a href="#"><span class="fab fa-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</footer>
 	
-</div>
+	  <div id="footer">
+		<div class="hero_area">
+		  <svg
+			class="waves"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 24 150 28"
+			preserveAspectRatio="none"
+			shape-rendering="auto"
+		  >
+			<defs>
+			  <path
+				id="gentle-wave"
+				d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+			  />
+			</defs>
+			<g class="parallax">
+			  <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.7)" />
+			  <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)" />
+			  <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.3)" />
+			  <use xlink:href="#gentle-wave" x="48" y="7" fill="#000" />
+			</g>
+		  </svg>
+		</div>
+		<div class="footer-container">
+		  <footer class="bg-white lg:grid lg:grid-cols-5 dark:bg-black">
+			<div class="hidden lg:block h-32 lg:col-span-2 lg:h-full">
+			  <div class="h-full w-full object-cover p-10">
+				<div>
+				  <iframe
+					width="100%"
+					height="350"
+					src="https://maps.google.com/maps?width=100%25&amp;height=350&amp;hl=en&amp;q=JUIT,%20Waknaghat,%20HP%20-%20173234,%20India+(JUIT)&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+				  >
+				  </iframe>
+				</div>
+			  </div>
+			</div>
+	
+			<div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+			  <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+				<div>
+				  <p>
+					<span class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+					  E-mail
+					</span>
+					<a
+					  href="mailto:ieee.juit@juitsolan.in"
+					  class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl dark:text-white"
+					>
+					  ieee.juit@juitsolan.in
+					</a>
+				  </p>
+				  <ul class="mt-8 space-y-1 text-sm text-gray-700 dark:text-gray-200">
+					<li>
+					  <strong>Call Us: </strong>
+					  <a href="tel:+917082787975">+91-7082787975</a>
+					</li>
+					<li>
+					  <strong>Address: </strong>
+					  Jaypee University Of Information Technology Waknaghat, HP - 173234
+					</li>
+				  </ul>
+				</div>
+				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+				  <p class="font-bold dark:text-white">**IEEE**</p>
+				  <ul class="list-inside list-disc text-gray-700 dark:text-gray-300">
+					<li>
+					  <a href="#" class="hover:text-blue-600">Region 10</a>
+					</li>
+					<li>
+					  <a href="#" class="hover:text-blue-600">JUIT Solan</a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </footer>
+		</div>
+	  </div>
+
+
 <!--End pagewrapper-->
 
 <script src="js/jquery.js"></script>
