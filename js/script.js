@@ -31,9 +31,9 @@
 	
 	headerStyle();
 
-	//Submenu Dropdown Toggle
-	if($('.main-header li.dropdown ul').length){
-		$('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div>');
+	//Submenu   Toggle
+	if($('.main-header li.  ul').length){
+		$('.main-header .navigation li. ').append('<div class=" -btn"><span class="fa fa-angle-right"></span></div>');
 		
 	}
 
@@ -46,8 +46,8 @@
 		$('.mobile-menu .menu-box .menu-outer').append(mobileMenuContent);
 		$('.sticky-header .main-menu').append(mobileMenuContent);
 		
-		//Dropdown Button
-		$('.mobile-menu li.dropdown .dropdown-btn').on('click', function() {
+		//  Button
+		$('.mobile-menu li.  . -btn').on('click', function() {
 			$(this).toggleClass('open');
 			$(this).prev('ul').slideToggle(500);
 		});
