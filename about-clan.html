@@ -409,113 +409,55 @@
 		</div>
 	</section>
 	<!-- End Players Section -->
-	
+
 	<!-- Main Footer -->
-    <footer class="main-footer">
-    	<div class="auto-container">
-        	<!--Widgets Section-->
-            <div class="widgets-section">
-            	<div class="row clearfix">
-                	
-                    <!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget logo-widget">
-							<div class="logo">
-                            	<a href="index.html"><img src="images/logo.png" alt="" /></a>
-                            </div>
-							<div class="text">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form by injected.</div>
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget links-widget">
-							<div class="widget-content">
-								<div class="footer-title">
-									<h2>Links</h2>
-								</div>
-								<div class="row clearfix">
-									<div class="column col-lg-6 col-md-6 col-sm-12">
-										<ul class="list">
-											<li><a href="#">About</a></li>
-											<li><a href="#">Our Team</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">Contact</a></li>
-										</ul>
-									</div>
-									<div class="column col-lg-6 col-md-6 col-sm-12">
-										<ul class="list">
-											<li><a href="#">Help & Support</a></li>
-											<li><a href="#">Privacy Policy</a></li>
-											<li><a href="#">Terms of Use</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>
-					</div>
-					
-					<!--Column-->
-                    <div class="column col-lg-4 col-md-6 col-sm-12">
-						<div class="footer-widget newsletter-widget">
-							<div class="footer-title">
-                            	<h2>Newsletter</h2>
-                            </div>
-							<div class="text">Subsrcibe us now to get the latest news and updates</div>
-							<div class="newsletter-form">
-                                <form method="post" action="contact.html">
-                                    <div class="form-group clearfix">
-                                        <input type="email" name="email" value="" placeholder="Email address" required>
-                                        <button type="submit" class="theme-btn newsletter-btn"><span class="fas fa-envelope"></span></button>
-                                    </div>
-                                </form>
-                            </div>
-						</div>
-					</div>
-					
-				</div>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <title>Responsive Navbar</title>
+	  <link rel="stylesheet" href="Navbar.css" />
+	  <script defer src="Navbar.js"></script>
+	</head>
+	<body>
+	  <div class="navbar">
+		<div class="navbar-wrapper">
+		  <!-- Logo -->
+		  <a href="#" class="logo" onclick="scrollToTop()">
+			<img src="./Assets/IEEE-JUIT(white).png" alt="IEEE Logo" class="navbar-logo" />
+		  </a>
+		  
+		  <!-- Hamburger Menu -->
+		  <div class="menu" onclick="toggleMenu()">
+			<div class="hamburger">
+			  <span></span>
+			  <span></span>
+			  <span></span>
 			</div>
+		  </div>
+		  
+		  <!-- Navigation Items -->
+		  <div class="nav-items">
+			<ul>
+			  <li><a href="#home" onclick="closeNavbar()">HOME</a></li>
+			  <li><a href="#about" onclick="closeNavbar()">ABOUT US</a></li>
+			  <li><a href="#upcoming-events" onclick="closeNavbar()">EVENTS</a></li>
+			  <li><a href="#testimonial" onclick="closeNavbar()">TESTIMONIALS</a></li>
+			  <li><a href="/membership" onclick="closeNavbar()">MEMBERSHIP</a></li>
+			  <li><a href="#contact-us" onclick="closeNavbar()">CONTACT US</a></li>
+			  <li><a href="/team" onclick="closeNavbar()">TEAM</a></li>
+			</ul>
+		  </div>
 		</div>
-		
-		<!-- Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="auto-container">
-				<!--Scroll to top-->
-				<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
-				<!--Scroll to top-->
-				<div class="row clearfix">
-					<!-- Column -->
-					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<div class="copyright">&copy; Copyrights, 2019 All Rights Reserved</div>
-					</div>
-					<!-- Column -->
-					<div class="column col-lg-6 col-md-12 col-sm-12">
-						<ul class="social-icons">
-							<li><a href="#"><span class="fab fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
-							<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
-							<li><a href="#"><span class="fab fa-instagram"></span></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</footer>
+	  </div>
+	  
+	  <!-- Add content sections for scrolling -->
+	  <section id="home">Home Section</section>
+	  <section id="about">About Section</section>
+	  <section id="upcoming-events">Events Section</section>
+	  <section id="testimonial">Testimonials Section</section>
+	  <section id="contact-us">Contact Us Section</section>
+	</body>
+	</html>
 	
-</div>
-<!--End pagewrapper-->
-
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/scrollbar.js"></script>
-<script src="js/script.js"></script>
-
-</body>
-</html>

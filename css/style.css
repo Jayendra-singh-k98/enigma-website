@@ -3374,7 +3374,7 @@ img{
 	Main Footer
 ====================================================================
 
-***/
+
 
 .main-footer{
 	position:relative;
@@ -3570,7 +3570,7 @@ img{
 	Scroll To Top style
 ====================================================================
 
-***/
+***
 
 .main-footer .footer-bottom .scroll-to-top{
 	position:absolute;
@@ -3599,6 +3599,7 @@ img{
 	background:#ffffff;
 	color:#3786ff;
 }
+***/
 
 /*** 
 
