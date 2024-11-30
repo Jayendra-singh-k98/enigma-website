@@ -2490,6 +2490,8 @@ img{
 	background:url(../images/background/3.jpg) no-repeat;
 	background-size:cover;
 	border-right:none;
+	display: flex;
+    justify-content: center;
 }
 
 .matches-section .matches-tabs .tab-btns .tab-btn{
@@ -2673,9 +2675,7 @@ img{
 
 .matches-block .match-column .match-item:first-child::before{
 	position:absolute;
-	top:50%;
-	right:-20px;
-	content:'vs';
+	
 	width:40px;
 	height:40px;
 	color:#ffffff;
@@ -3374,7 +3374,7 @@ img{
 	Main Footer
 ====================================================================
 
-***/
+
 
 .main-footer{
 	position:relative;
@@ -3515,7 +3515,7 @@ img{
 	height:80px;
 	top: 0px;
 	right: 0px;
-	float:right;
+	float: right;
 	color:#ffffff;
 	font-size:18px;
 	font-weight:400;
@@ -3570,7 +3570,7 @@ img{
 	Scroll To Top style
 ====================================================================
 
-***/
+***
 
 .main-footer .footer-bottom .scroll-to-top{
 	position:absolute;
@@ -3599,6 +3599,7 @@ img{
 	background:#ffffff;
 	color:#3786ff;
 }
+***/
 
 /*** 
 
